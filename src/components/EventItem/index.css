@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.event-card{
+    height: 13rem;
+    width: 16rem;
+    list-style: none;
+}
+
+
+.event-name{
+    color: #fff;
+}
+
+.event-location{
+    color: #f8fafc;
+}
+.event-button {
+    background: transparent;
+    border: none;
+    padding: 0px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .event-image {
+    height: 70%;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    max-width: 460px;
+  }
+  
+  .active {
+    border: 2px solid #2dd4bf;
+    border-radius: 10px;
+  }

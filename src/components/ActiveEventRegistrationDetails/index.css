@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.view-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.registrations-closed-image{
+    height: 30rem;
+    width: 30rem;
+}
+
+.yet-to-register-image{
+    height: 30rem;
+    width: 30rem;
+}
+
+.register-description{
+    width: 80%;
+}
+
+.register-here-button{
+    height: 3rem;
+    width: 8rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color:#000;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.registered-heading{
+    width: 80%;
+}
